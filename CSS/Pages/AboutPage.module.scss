@@ -1,0 +1,60 @@
+.PageContainer{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin:0 auto ;
+    background-color: rgba(213, 213, 213, 0.91);
+    align-items: start;
+}
+
+.PageBody{
+    width:80%;
+    margin: 0 auto;
+    
+    padding-top: 80px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 50px;
+    display:grid;
+    grid:
+    ".";
+    justify-items: start;
+    background-color: white;
+}
+
+.workFilmImg{
+    width: 100%;
+    
+}
+
+.title{
+    font-size: 5rem;
+    color:rgb(0, 191, 255)
+}
+
+.subTitle{
+    font-size: 3rem;
+}
+
+.text{
+    font-size: 1.5rem;
+    text-align: justify;
+    
+}
+
+
+@media (max-width: 600px) {
+    .title{
+        font-size: 3rem;
+        color:rgb(0, 191, 255)
+    }
+    .subTitle{
+        font-size: 2rem;
+    }
+    
+    .text{
+        font-size: 1rem
+    }
+    
+}

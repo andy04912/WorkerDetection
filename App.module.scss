@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  width: 100%;
+  
+}
+
+.fixed_background {
+  /* 設置背景圖像 */
+  // background-image: URL("bgimage.jpg");
+
+  /* 背景固定，不隨內容滾動 */
+  background-attachment: fixed;
+
+  /* 背景圖像覆蓋整個元素 */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* 確保背景圖像從元素的左上角開始 */
+  background-position:  left;
+
+  /* 可選：設置背景顏色，以防圖像加載失敗或透明 */
+  background-color:whitesmoke;
+
+  /* 元素的大小，依據需求調整 */
+  width: 100%;
+  min-height: 100vh;
+  height: 100%; /* 例如，使其至少有視窗的高度 */
+}
+
+
+.outletTop{
+  
+}
+

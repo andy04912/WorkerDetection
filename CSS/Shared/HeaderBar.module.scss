@@ -1,0 +1,35 @@
+
+
+.header {
+    background-color:#00bfff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    position: fixed; /* 固定 header 在頂部 */
+    top: 0;         /* 確保 header 在頁面最上方 */
+    width: auto;    /* 讓 header 擴展到整個頁面的寬度 */
+    z-index: 99;   /* 確保 header 在其他元素的上方 */
+    
+}
+
+.headerText {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.workerLogo{
+    width: 50%;
+}
+
+
+@media (max-width: 600px) {
+    .workerLogo{
+        width: 100%;
+    }
+    .headerText {
+        font-size: 1rem;
+    }
+}
+  
